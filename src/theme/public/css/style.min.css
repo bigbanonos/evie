@@ -854,7 +854,7 @@ select {
 .hero {
   position: relative;
   width: 100%;
-  background-image: url("../images/evie_default_bg.jpeg");
+  background-image: url("../images/ccf-townhouse-exterior.jpg");
   box-shadow: 0 4px 11px rgba(124, 146, 169, 0.5);
   background-size: cover;
   background-position: center center;
@@ -868,15 +868,16 @@ select {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.96;
+  opacity: 0.7;
   z-index: 1;
-  background-color: #6C63FF; }
+  background-color: #cd212a; }
 
 .hero__overlay--gradient {
-  background: linear-gradient(to right, #6C63FF, #4641FF); }
+  background: linear-gradient(90deg,#008C43,#cd212a);
+}
 
 .hero__overlay--gradientVertical {
-  background: linear-gradient(to bottom, #6C63FF, #4641FF); }
+  background: linear-gradient(90deg,#008C43,#cd212a); }
 
 .hero__mask {
   position: absolute;
