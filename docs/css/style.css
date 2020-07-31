@@ -734,7 +734,7 @@ select {
   position: fixed;
   z-index: 100;
   width: 100%;
-  background-color: #000000;
+  background-color: #ffffff;
   transition: 0.7s; }
   .navbar--nofixed {
     position: relative;
@@ -795,7 +795,7 @@ select {
 
 /*--- Extended and transparent version ---*/
 .navbar--extended {
-  background-color: transparent; }
+  background-color: #ffffff; }
   .navbar--extended .navbar__inner {
     height: 60px;
     color: #ffffff; }
